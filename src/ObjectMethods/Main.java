@@ -1,3 +1,5 @@
+package ObjectMethods;
+
 public class Main {
 
 
@@ -14,6 +16,9 @@ public class Main {
         Author author2 = new Author("Alexandr", "Grin");
         Book bookTwo = new Book(new Author(author2.getAuthorName(), author2.getAuthorSurname()), "Scarlet Sales", 1922);
         System.out.println(author2.getAuthorName() + " " + author2.getAuthorSurname() + ", " + bookTwo.getBookName() + ", " + bookTwo.getPublishingYear());
+        System.out.println();
 
+        System.out.println(bookOne);
+        System.out.println(bookTwo);
     }
 }
